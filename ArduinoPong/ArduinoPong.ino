@@ -103,7 +103,7 @@ void loop()
     // If you press the button before the last light turns on that's cheating.
     if(digitalRead(button1) == HIGH)
     {
-        playerOneWins();
+        playerTwoWins();
     }
     
     // We've reached the other end. Let's check if player onw presses the button in time.
